@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Colors>
+   <Chart id="backgroundLive">[0.000000, 0.000000, 0.000000]</Chart>
+   <Chart id="foregroundLive">[1, 1, 1]</Chart>
+   <Chart id="backgroundAnalyze">[1.000000, 1.000000, 1.000000]</Chart>
+   <Chart id="foregroundAnalyze">[0, 0, 0]</Chart>
+   <Line id="main">[0.000000, 0.000000, 1.000000]</Line>
+   <Line id="secondary">[0.501961, 0.501961, 0.501961]</Line>
+   <Line id="1">[0.000000, 1.000000, 0.000000]</Line>
+   <Line id="2">[1.000000, 0.000000, 0.000000]</Line>
+   <Line id="3">[0.000000, 0.000000, 1.000000]</Line>
+   <Line id="4">[1.000000, 1.000000, 0.066667]</Line>
+   <Line id="5">[0.301961, 0.745098, 0.933333]</Line>
+   <Line id="6">[1.000000, 0.074510, 0.650980]</Line>
+   <Line id="7">[1.000000, 1.000000, 0.066667]</Line>
+   <Line id="8">[0, .5, 0]</Line>
+   <Line id="9">[1, 0, 0]</Line>
+   <Line id="10">[1, 0, 0]</Line>
+   <Line id="11">[1, 0, 0]</Line>
+   <Line id="12">[1, 0, 0]</Line>
+   <Line id="13">[1, 0, 0]</Line>
+   <Line id="14">[1, 0, 0]</Line>
+   <Line id="15">[1, 0, 0]</Line>
+   <Line id="16">[1, 0, 0]</Line>
+   <Line id="17">[1, 0, 0]</Line>
+   <Line id="18">[1, 0, 0]</Line>
+   <Line id="19">[1, 0, 0]</Line>
+   <Line id="20">[1, 0, 0]</Line>
+   <Line id="21">[1, 0, 0]</Line>
+   <Line id="22">[1, 0, 0]</Line>
+   <Line id="23">[1, 0, 0]</Line>
+   <Line id="24">[1, 0, 0]</Line>
+</Colors>

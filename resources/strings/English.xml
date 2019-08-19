@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Strings>
+    <Label id="appName">SAPPIY</Label>
+    <Label id="xLabel" size="12" weight="bold">Time from acquisition (s)</Label>
+    <Label id="yLabel" size="12" weight="bold">Signal Amplitude</Label>
+    <Label id="stopAfter" size="10" weight="normal">Acquisition Time (leave empty for continuous)</Label>
+    <Label id="labelIN" size="12" weight="bold" color="[0, .6, 0]">Input TTL Signals</Label>
+    <Label id="labelOUT" size="12" weight="bold" color="[.8, 0, 0]">Output TTL Signals</Label>
+    <Label id="analogINChannel" size="10" weight="normal" parent="analogIN">Analog Channel to focus on</Label>
+    <Label id="analogOUTChannel" size="10" weight="normal" parent="analogOUT">Analog Channel to focus on</Label>
+    <Label id="manualOUTPort" size="10" weight="normal" parent="manualOUT">Digital Port</Label>
+    <Label id="analogOUTPort" size="10" weight="normal" parent="analogOUT">Digital Port</Label>
+    <Label id="manualOUTFcn" size="10" weight="normal" parent="manualOUT">Associated DOUT Fcn</Label>
+    <Label id="analogOUTFcn" size="10" weight="normal" parent="analogOUT">Associated DOUT Fcn</Label>
+    <Label id="threshold" size="10" weight="normal">Threshold Value</Label>
+    <Label id="samplesAcq" size="10" weight="normal">Samples Acquired:</Label>
+    <Label id="time">Time</Label>
+    <Label id="relativeTime">Relative Time</Label>
+    <Label id="samples">Samples</Label>
+    <Label id="analyzeTreat" size="10" weight="normal">Signal Treat</Label>
+    <Label id="pulseIndex" size="10" weight="normal">Browse TTL</Label>
+    <Label id="sequencingSource" size="10" weight="bold">Focus Sequencing On:</Label>
+    <Label id="sequencingOnset" size="10" weight="bold">Onset:</Label>
+    <Label id="sequencingOffset" size="10" weight="bold">Offset:</Label>
+    <Label id="dataSequencing">Data Sequencing</Label>
+    <Label id="noSequencing">No Sequencing Performed</Label>
+    <Label id="currentSequencing">Sequencing Preview</Label>
+    <Menu id="live">Live</Menu>
+    <Menu id="session">Session</Menu>
+    <Menu id="newSession">New Session</Menu>
+    <Menu id="loadSession">Load Existent Session</Menu>
+    <Menu id="saveSession">Save Current Session</Menu>
+    <Menu id="saveLive">Save Live Data</Menu>
+    <Menu id="analyze">Analyze</Menu>
+    <Menu id="import">Import File(s)</Menu>
+    <Menu id="export">Export Results</Menu>
+    <Menu id="view">View</Menu>
+    <Menu id="help">Help</Menu>
+    <Menu id="language">Set Language</Menu>
+    <Menu id="userManual">User Manual</Menu>
+    <Menu id="backgroundColor">Background Color</Menu>
+    <Menu id="lineColor">Line Colors</Menu>
+    <Menu id="mainColor">Main Line</Menu>
+    <Menu id="secondaryColor">Secondary Line(s)</Menu>
+    <Menu id="exportChart">Export Chart</Menu>
+    <Menu id="associateFcn">Associate Function</Menu>
+    <Menu id="clearFcn">Clear Function</Menu>
+    <Table id="chanIndex" format="char" editable="false">Channel Index</Table>
+    <Table id="chanName" format="char" editable="true">Channel Name</Table>
+    <Table id="display" format="logical" editable="true">Display</Table>
+    <Table id="color" format="char" editable="0">Color</Table>
+    <Table id="delete">Delete</Table>
+    <Table id="file">File</Table>
+    <Table id="channel">Channel</Table>
+    <Table id="sequence">Sequence</Table>
+    <Table id="selection">Selection</Table>
+    <Table id="element">Element</Table>
+    <Table id="variable">Variable</Table>
+    <Table id="value">Value</Table>
+    <Table id="comments">Comments</Table>
+    <Button id="rightCursor">&gt;</Button>
+    <Button id="leftCursor">&lt;</Button>
+    <Button id="previous">|&lt;</Button>
+    <Button id="next">&gt;|</Button>
+    <Button id="na">N/A</Button>
+    <Button id="addArithmetic">Add Arithmetic Channel</Button>
+    <Button id="peek">Scan</Button>
+    <Button id="manualTTLOUT">Manual Output TTL</Button>
+    <Button id="manualTTLIN">Manual Input TTL</Button>
+    <Button id="exploreData">Explore Data</Button>
+    <Button id="clearLogs">Flush Data</Button>
+    <Button id="computeSequencing">Compute</Button>
+    <Button id="clearSequencing" size="10" weight="bold" color="[.8, .1, .1]">X</Button>
+    <Button id="sequencingBefore" size="10" weight="bold">&lt;-|</Button>
+    <Button id="sequencingAfter" size="10" weight="bold">|-&gt;</Button>
+    <Button id="sequencingLower" size="10" weight="bold">&lt;</Button>
+    <Button id="sequencingGreater" size="10" weight="bold">&gt;</Button>
+    <Check id="startIn" size="10" weight="bold">Start Trigger In</Check>
+    <Check id="startOut" size="10" weight="bold">Start Trigger Out</Check>
+    <Check id="stopIn" size="10" weight="bold">Stop Trigger In</Check>
+    <Check id="stopOut" size="10" weight="bold">Stop Trigger Out</Check>
+    <Check id="manualIN" size="10" weight="bold">INPUT / Manual TTL</Check>
+    <Check id="analogIN" size="10" weight="bold">INPUT / Based on Analog Channel</Check>
+    <Check id="manualOUT" size="10" weight="bold">OUTPUT / Manual TTL</Check>
+    <Check id="analogOUT" size="10" weight="bold">OUTPUT / Based on Analog Channel</Check>
+    <Toggle id="recordOn" color="[1, .5, .5]">Record</Toggle>   
+    <Toggle id="recordOff" color="[.75, .75, .75]">Record</Toggle>
+    <Toggle id="playOn" color="[0, 1, 1]">Play</Toggle>
+    <Toggle id="playOff" color="[.75, .75, .75]">Play</Toggle>
+    <Toggle id="guidelineOn" color="[1, 1, .1]">Delete Guideline</Toggle>
+    <Toggle id="guidelineOff" color="[.75, .75, .75]">Add Guideline</Toggle>
+    <Radio id="analogIn" size="9" weight="bold">Analog Channels</Radio>
+    <Radio id="ttl" size="9" weight="bold">TTL Settings</Radio>
+    <Radio id="viewLabel">View:</Radio>
+    <Radio id="viewSingle">Single</Radio>
+    <Radio id="viewMultiple">Multiple</Radio>
+    <Radio id="viewAverage">Average</Radio>
+    <Radio id="risingEdge" size="10" weight="normal">Rising Edge</Radio>
+    <Radio id="fallingEdge" size="10" weight="normal">Falling Edge</Radio>
+    <Command id="selectChan">Select a channel</Command>
+    <Command id="supressChan">Do you really want to suppress this channel?</Command>
+    <Command id="supressFile">Do you really want to suppress this file?</Command>
+    <Command id="saveSession">Do you want to save session?</Command>
+    <Command id="yes">Yes</Command>
+    <Command id="no">No</Command>
+    <Command id="cancel">Cancel</Command>
+    <Command id="file">File</Command>
+    <Command id="sequence">Sequence</Command>
+    <Command id="average">Average Sequence</Command>
+    <Command id="confirm">Do you really want to flush data?</Command>
+    <Command id="xSequence">Select Variable to use as X coordinates</Command>
+    <Command id="ySequence">Select Channels to use as Y coordinates</Command>
+    <Command id="selectTerminal">Select Terminal Connection</Command>
+    <Command id="selectTTL">Select TTL Channel</Command>
+    <Command id="sourceChannel">Select Source Channel(s)</Command>
+    <Command id="plotType">Determine Plot Type</Command>
+    <Command id="equation">Arithmetic Equation</Command>
+    <Command id="selectFcn">Select Function</Command>
+    <Command id="saveAs">Save As</Command>
+    <Command id="importNoTTL">The imported file does not contain TTL information</Command>
+    <Command id="importTTL">TTL information found in the imported file</Command>
+    <Command id="indexTTL">Use TTL indexes</Command>
+    <Command id="channelTTL">Use channel source</Command>
+    <Command id="sequenceInterp">Sequences do not have the same dimension. Do you want to interpolate sequences?</Command>
+    <Command id="interpDimension">Set interpolation dimension</Command>
+    <Error id="noData">No Data</Error>
+    <Error id="numeric">Expected value must be of numeric format</Error>
+    <Error id="hash">Channel source is expected to be delimited with hash keys (i.e. #source#)</Error>
+    <Error id="importNoData">Selected file does not contain any data</Error>
+    <Error id="importNoRate">Selected file does not contain any Rate value</Error>
+    <Error id="noTTLOUT">No TTL OUT Function associated with this command</Error>
+    <Error id="invalidFile">Invalid file</Error>
+    <Error id="noTerminal">No terminal connection available</Error>
+    <Error id="noSession">No valid session to save</Error>
+    <Error id="noFcn">No function in user folder</Error>
+    <Error id="sequenceLength">Value is out of sequence length</Error>
+</Strings>

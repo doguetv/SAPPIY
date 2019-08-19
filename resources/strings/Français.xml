@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Strings>
+    <Label id="appName">SAPPIY</Label>
+    <Label id="xLabel" size="12" weight="bold">Temps depuis Acquisition (s)</Label>
+    <Label id="yLabel" size="12" weight="bold">Amplitude Signal</Label>
+    <Label id="stopAfter" size="10" weight="normal">Durée d'acquisition (laisser vide pour acquisiton continue)</Label>
+    <Label id="labelIN" size="12" weight="bold" color="[0, .6, 0]">Signal TTL d'Entrée</Label>
+    <Label id="labelOUT" size="12" weight="bold" color="[.8, 0, 0]">Signal TTL de Sortie</Label>
+    <Label id="analogINChannel" size="10" weight="normal" parent="analogIN">Voie analogique cible</Label>
+    <Label id="analogOUTChannel" size="10" weight="normal" parent="analogOUT">Voie analogique cible</Label>
+    <Label id="manualOUTPort" size="10" weight="normal" parent="manualOUT">Port Digital</Label>
+    <Label id="analogOUTPort" size="10" weight="normal" parent="analogOUT">Port Digital</Label>
+    <Label id="manualOUTFcn" size="10" weight="normal" parent="manualOUT">Fcn DOUT Associée</Label>
+    <Label id="analogOUTFcn" size="10" weight="normal" parent="analogOUT">Fcn DOUT Associée</Label>
+    <Label id="threshold" size="10" weight="normal">Valeur Seuil</Label>
+    <Label id="samplesAcq" size="10" weight="normal">Echantillons acquis</Label>
+    <Label id="time">Temps</Label>
+    <Label id="relativeTime">Temps relatif</Label>
+    <Label id="samples">Echantillons</Label>
+    <Label id="analyzeTreat" size="10" weight="normal">Traitement Signal</Label>
+    <Label id="pulseIndex" size="10" weight="normal">Changer de TTL</Label>
+    <Label id="sequencingSource" size="10" weight="bold">Focaliser Séquençage sur:</Label>
+    <Label id="sequencingOnset" size="10" weight="bold">Commence à:</Label>
+    <Label id="sequencingOffset" size="10" weight="bold">Termine à:</Label>
+    <Label id="dataSequencing">Sequençage de données</Label>
+    <Label id="noSequencing">Séquençage non réalisé</Label>
+    <Label id="currentSequencing">Prévisualisation Séquençage</Label>
+    <Menu id="live">Live</Menu>
+    <Menu id="session">Session</Menu>
+    <Menu id="newSession">Nouvelle Session</Menu>
+    <Menu id="loadSession">Charger Session Existante</Menu>
+    <Menu id="saveSession">Sauvegarder Session Courante</Menu>
+    <Menu id="saveLive">Sauvegarder Données Live</Menu>
+    <Menu id="analyze">Analyse</Menu>
+    <Menu id="import">Importer Fichier(s)</Menu>
+    <Menu id="export">Exporter Resultats</Menu>
+    <Menu id="view">Affichage</Menu>
+    <Menu id="help">Aide</Menu>
+    <Menu id="language">Définir Langue</Menu>
+    <Menu id="userManual">Manuel Utilisateur</Menu>
+    <Menu id="backgroundColor">Couleur de Fond</Menu>
+    <Menu id="lineColor">Couleurs des Lignes</Menu>
+    <Menu id="mainColor">Ligne Principale</Menu>
+    <Menu id="secondaryColor">Ligne(s) Secondaire(s)</Menu>
+    <Menu id="exportChart">Exporter Graphique</Menu>
+    <Menu id="associateFcn">Associer une Fonction</Menu>
+    <Menu id="clearFcn">Effacer la Fonction</Menu>
+    <Table id="chanIndex" format="char" editable="false">Numéro de Voie</Table>
+    <Table id="chanName" format="char" editable="true">Nom de la Voie</Table>
+    <Table id="display" format="logical" editable="true">Affichage</Table>
+    <Table id="color" format="char" editable="0">Couleur</Table>
+    <Table id="delete">Effacer</Table>
+    <Table id="file">Fichier</Table>
+    <Table id="channel">Voie</Table>
+    <Table id="sequence">Séquence</Table>
+    <Table id="selection">Selection</Table>
+    <Table id="element">Element</Table>
+    <Table id="variable">Variable</Table>
+    <Table id="value">Valeur</Table>
+    <Table id="comments">Commentaires</Table>
+    <Button id="rightCursor">&gt;</Button>
+    <Button id="leftCursor">&lt;</Button>
+    <Button id="previous">|&lt;</Button>
+    <Button id="next">&gt;|</Button>
+    <Button id="na">N/A</Button>
+    <Button id="addArithmetic">Ajouter voie arithmétique</Button>
+    <Button id="peek">Scanner</Button>
+    <Button id="manualTTLOUT">TTL Sortie Manuel</Button>
+    <Button id="manualTTLIN">TTL Entrée Manuel</Button>
+    <Button id="exploreData">Explorer Données</Button>
+    <Button id="clearLogs">Effacer Données</Button>
+    <Button id="computeSequencing">Appliquer</Button>
+    <Button id="clearSequencing" size="10" weight="bold" color="[.8, .1, .1]">X</Button>
+    <Button id="sequencingBefore" size="10" weight="bold">&lt;-|</Button>
+    <Button id="sequencingAfter" size="10" weight="bold">|-&gt;</Button>
+    <Button id="sequencingLower" size="10" weight="bold">&lt;</Button>
+    <Button id="sequencingGreater" size="10" weight="bold">&gt;</Button>
+    <Check id="startIn" size="10" weight="bold">Démarrer Trigger Entrant</Check>
+    <Check id="startOut" size="10" weight="bold">Démarrer Trigger Sortant</Check>
+    <Check id="stopIn" size="10" weight="bold">Arrêter Trigger Entrant</Check>
+    <Check id="stopOut" size="10" weight="bold">Arrêter Trigger Sortant</Check>
+    <Check id="manualIN" size="10" weight="bold">ENTREE / TTL Manuel</Check>
+    <Check id="analogIN" size="10" weight="bold">ENTREE / Basée sur Voie Analogique</Check>
+    <Check id="manualOUT" size="10" weight="bold">SORTIE / TTL Manuel</Check>
+    <Check id="analogOUT" size="10" weight="bold">SORTIE / Basée sur Voie Analogique</Check>
+    <Toggle id="recordOn" color="[1, .5, .5]">Enregistrer</Toggle>   
+    <Toggle id="recordOff" color="[.75, .75, .75]">Enregistrer</Toggle>
+    <Toggle id="playOn" color="[0, 1, 1]">Lecture</Toggle>
+    <Toggle id="playOff" color="[.75, .75, .75]">Lecture</Toggle>
+    <Toggle id="guidelineOn" color="[1, 1, .1]">Effacer Guide</Toggle>
+    <Toggle id="guidelineOff" color="[.75, .75, .75]">Ajouter Guide</Toggle>
+    <Radio id="analogIn" size="9" weight="bold">Voies analogiques</Radio>
+    <Radio id="ttl" size="9" weight="bold">Paramètres TTL</Radio>
+    <Radio id="viewLabel">Vue :</Radio>
+    <Radio id="viewSingle">Simple</Radio>
+    <Radio id="viewMultiple">Multiple</Radio>
+    <Radio id="viewAverage">Moyen</Radio>
+    <Radio id="risingEdge" size="10" weight="normal">Front Montant</Radio>
+    <Radio id="fallingEdge" size="10" weight="normal">Front Descendant</Radio>
+    <Command id="selectChan">Selectionner une voie</Command>
+    <Command id="supressChan">Voulez-vous vraiment supprimer cette voie ?</Command>
+    <Command id="supressFile">Voulez-vous vraiment supprimer ce fichier ?</Command>
+    <Command id="saveSession">Voulez-vous sauvegarder la session ?</Command>
+    <Command id="yes">Oui</Command>
+    <Command id="no">Non</Command>
+    <Command id="cancel">Annuler</Command>
+    <Command id="file">Ficher</Command>
+    <Command id="sequence">Séquence</Command>
+    <Command id="average">Séquence moyenne</Command>
+    <Command id="confirm">Voulez-vous vraiment effacer les données ?</Command>
+    <Command id="xSequence">Sélectionner une variable à utiliser comme coordonnée X</Command>
+    <Command id="ySequence">Sélectionner une variable à utiliser comme coordonnée Y</Command>
+    <Command id="selectTerminal">Sélectionner un type de connexion du terminal</Command>
+    <Command id="selectTTL">Sélectionner une voie TTL</Command>
+    <Command id="sourceChannel">Sélectionner la/les voie(s) source(s)</Command>
+    <Command id="plotType">Définir le type de graphique</Command>
+    <Command id="equation">Equation Arithmétique</Command>
+    <Command id="selectFcn">Sélectioner une Fonction</Command>
+    <Command id="saveAs">Sauvegarder sous</Command>
+    <Command id="importNoTTL">Le fichier importé ne contient pas d'informations de TTL</Command>
+    <Command id="importTTL">Le fichier importé contient des informations de TTL</Command>
+    <Command id="indexTTL">Utiliser les indexes TTL</Command>
+    <Command id="channelTTL">Utiliser une voie comme source</Command>
+    <Command id="sequenceInterp">Les séquences sont de taille différente. Voulez-vous interpoler les séquences ?</Command>
+    <Command id="interpDimension">Définir la dimension de l'interpolation</Command>
+    <Error id="noData">Pas de données</Error>
+    <Error id="numeric">La valuer attendue doit être au format numérique</Error>
+    <Error id="hash">La voie source doit être délimitée par des dièzes (i.e., #source#)</Error>
+    <Error id="importNoData">Le fichier sélectionné ne contient pas de données</Error>
+    <Error id="importNoRate">Le fichier sélectionné ne contient pas de valeur de fréquence</Error>
+    <Error id="noTTLOUT">Pas de fonction TTL de sortie associée à cette commande</Error>
+    <Error id="invalidFile">Fichier invalide</Error>
+    <Error id="noTerminal">Aucun type de connexion au terminal disponible</Error>
+    <Error id="noSession">Aucune session valide à sauvegarder</Error>
+    <Error id="noFcn">Aucune fonction dans le dossier utilisateur</Error>
+    <Error id="sequenceLength">La valeur définie dépasse les limites de la séquence</Error>
+</Strings>
