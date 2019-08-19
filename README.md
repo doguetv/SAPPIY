@@ -7,4 +7,4 @@ The Analyze Mode does not require any specific toolbox and enable processing sig
 
 The application includes internal and external libraries, the latter being designed as "user functions". These user functions allow users to add, edit or delete Matlab functions that can be used under the software, and then customize functions to their use in either the live mode or the analyze mode.
 
-The user guide available with the SAPPIY application help the users to create "user function". Then, the application is an opened program, dedicated to a specific use (data acquistion and processing), with customizable libraries for signal acquisition and processing methods.
+The user guide available with the SAPPIY application helps the users to create "user function". Then, the application is an opened program, dedicated to a specific use (data acquistion and processing), with customizable libraries for signal acquisition and processing methods.
