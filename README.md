@@ -12,3 +12,4 @@ The user guide available with the SAPPIY application helps users to create "user
 
 The SAPPIY application has been developped with Win 10 and Matlab R2018b.
 Users might encouter issues using different OS or Matlab versions. Feel free to share your issues to give me a chance to fix them.
+![Alt text](AnalyzeMode.PNG?raw=true)
