@@ -1,4 +1,5 @@
 # SAPPIY | Signal Acquisition & Processing, Program It Yourself
+![Alt text](guideline.PNG?raw=true "Optional Title")
 The SAPPIY application is a Matlab program dedicated to data acquisition (live mode) and processing (analyze mode) of the time domain signals.
 
 The Live Mode requires the Matlab Data Acquistion Toolbox as well as data acquisition device (DAQ) to be installed on your machine.
